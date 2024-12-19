@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://assamtribune.com/h-upload/2022/03/01/1330873-clouds-weather.webp?width=500&height=300);
+    background-size: cover;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow:0 4px 8px black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+  
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px 20px;
+    width: 400px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: rgb(50, 50, 141);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+  
+ 
+.weather-container {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 7px;
+    text-align: left;
+}
+  
+.weather-container h2 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+}
+  
+.weather-container p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
